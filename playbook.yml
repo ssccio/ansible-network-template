@@ -1,0 +1,12 @@
+---
+- hosts: all
+  connection: local
+  vars:
+    cli:
+      host: "{{ inventory_hostname }}"
+      username:
+      password:
+      authorize: yes
+      auth_pass:
+  tasks:
+  handlers:
